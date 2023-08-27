@@ -1,0 +1,10 @@
+docker run -d \
+           --rm \
+           -v $(pwd)/C2:/C2 \
+           -w /C2/W1 \
+           -p 8888:8888 \
+           --name jupyter \
+           python-bcl:latest  
+
+sleep 5
+docker logs jupyter
