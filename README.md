@@ -17,3 +17,6 @@ The requirements are in the requirements.txt.
 
 ## I ignore the data of Coursera and provide just empty folder
 As this is not my code I don't provide the Coursera jupyter notebooks
+
+## c2_run
+This is an example how to create a new container that uses C2 folder as working folder. There is a sleep and logs output to get the links to the jupyter notebook machine.
